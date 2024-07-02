@@ -1,5 +1,4 @@
 const websocket = require ('ws').Server;
-const msgpack = require('msgpack');
 
 let server = new websocket({port: 3000});
 
